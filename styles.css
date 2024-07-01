@@ -69,11 +69,13 @@ p {
 
 footer {
     text-align: center;
-    padding: 1em 0;
+    padding: 0.4em 0;
     background-color: #333;
     color: white;
-    position: relative;
+    font-size: 0.8em; /* Reduz o tamanho da fonte */
+    border-top: 1px solid #ddd; /* Linha fina para separar o footer do conteúdo */
     width: 100%;
+    position: relative;
     bottom: 0;
 }
 
